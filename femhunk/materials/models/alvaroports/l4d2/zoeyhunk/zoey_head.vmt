@@ -1,0 +1,14 @@
+vertexlitgeneric
+{
+
+$basetexture "models/alvaroports/l4d2/zoeyhunk/zoey_head"
+$bumpmap "models/alvaroports/l4d2/zoeyhunk/zoey_head_normal"
+$halflambert 1
+$phong 1
+$phongboost 1
+$phongexponent 5
+$phongtint "[1 .85 .85]"
+$phongfresnelranges "[.5 .85 30]"
+$nodecal 1
+$ambientocclusion 1
+}

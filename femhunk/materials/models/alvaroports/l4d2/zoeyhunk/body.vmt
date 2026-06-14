@@ -1,0 +1,47 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/alvaroports/l4d2/zoeyhunk/body_col"
+	"$bumpmap" "models/alvaroports/l4d2/zoeyhunk/body_nml"
+	//"$color2" "[0.8 0.8 0.8]"
+	//"$blendTintByBaseAlpha"	"1"
+	//"$additive" "1"
+	//$translucent 1
+	//$ambientocclusion 0
+	//$no_draw 0
+	//"$selfillum" "1"
+	//"$selfillummaskscale" "15"
+	//"$selfillummask" "/chr_ying_main_emi"
+
+	$nocull 0
+	$normalmapalphaenvmapmask 1 	
+
+    "$envmap" "models\alvaroports\shared\cubemaps\specularity_00"
+    "$envmaptint" "[0.048 0.048 0.048]"                 
+
+    "Proxies"
+    {
+        "Cubemap"
+        {
+            "min" "0"
+            "max" "1"
+            "envmap" "models\alvaroports\shared\cubemaps\specularity_00"
+            "color" "[0.048 0.048 0.048]"
+        }
+    }	
+
+	"$phong" "1"						
+	"$phongboost"	"1" 		
+	//"$phongexponent" "2"	
+	"$phongexponenttexture" "models/alvaroports/l4d2/zoeyhunk/body_mask"
+				
+	$lightwarptexture "models/alvaroports/shared/lightwarp/lightwarp_soft"
+	
+	"$phongfresnelranges"	"[0.01 0.05 1.75]"		
+	"$phongtint" 			"[1 1 1.1]"			
+	//"$PhongAlbedoTint" "1"
+	"$rimlight" "1"
+	"$rimmask" "1"
+	"$rimlightboost" "1"
+         $nodecal 1
+
+}

@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+$baseTexture "models/alvaroports/l4d2/zoeyhunk/zoey_hair"
+$translucent 1
+$nocull 1
+}
